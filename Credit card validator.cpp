@@ -55,7 +55,7 @@ int main() {
         }
         
         // Step 3 is to check if the final 'doubleEvenSum' is a multiple of 10.
-        // If yes, it is a valid CC number. Otherwise, not.
+        // If yes, it is a valid CC number. Otherwise, not, then the code works.
         
         cout << (doubleEvenSum % 10 == 0 ? "Valid!" : "Invalid!") << endl;
         
