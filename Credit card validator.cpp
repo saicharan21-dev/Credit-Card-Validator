@@ -10,7 +10,7 @@ bool isNumberString(const string& s) {
         if (s[i] < '0' || s[i] > '9')
             return false;
     }
-    return true;  // we can also use boolean
+    return true; 
 }
 
 int main() {
